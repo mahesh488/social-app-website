@@ -1,0 +1,48 @@
+.rightsidebar{
+    background-color: #fff;
+    display: flex;
+    padding: 5px 20px;
+    z-index: 90;
+    float:right;
+    margin-top: 80px;
+    position: fixed;
+    margin-left: 1100px;
+  }
+  
+  .right_options p{
+                    font-size: 20px;
+                    color:gray;
+                    font-weight: bolder;
+                    margin-right: -35px;
+                    
+  
+  }
+  .chat_options{
+                display: flex;
+                align-items: center;
+                margin-top: 100px;
+  }
+  .model{
+    display: flex;
+    align-items: center;
+    top:50%;
+    background-color: #fff;
+    width: 400px;
+    margin:0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom: 1px solid gray;
+    height: 300px;
+  }
+  .chat_medium::after{
+    position: absolute;
+       content: "";
+       background-color: #1778f2;
+       height: 2px;
+       width: 50%;
+       margin-left: 15px;
+       top: 85%;
+       left:-2%;
+  }

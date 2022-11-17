@@ -1,0 +1,37 @@
+.Post1options{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 480px;
+    width:600px;
+    height:100px;
+    background-color:white;
+    border:40px;
+    box-shadow: 0px 5px 17px -7px rgb(0,0,0,0.75);
+    
+      
+}
+.postoptions_left{
+                 display: flex;
+                 align-items: center;
+                 margin-left: -0px;
+                 position: sticky;
+}
+.postoptions_right{
+                   display: flex;
+                   align-items: center;
+                   margin-left: 320px;
+                }
+.postoptions_left h4{
+                    color:black;
+                    font-weight: bolder;
+                    margin-left: 6px;
+}
+.postoptions_left p{
+                    color:gray;
+                    }
+.postoptions_middle{
+                    display: flex;
+                    align-items: center;
+                      
+                }

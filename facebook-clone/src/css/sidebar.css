@@ -1,0 +1,33 @@
+.Sidebar{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-style: normal;
+    font-weight: bolder;
+    margin:10px 0px;
+    position: relative;
+}
+.sidebar__options{
+                  font-size: 16px;
+                  text-transform: capitalize;
+                  font-style: normal;
+                  font-weight: bolder;
+                  color:var(--primary-text);
+                  position: fixed;
+                  top:90px;
+                  margin:-16px 20px;
+                  
+                  
+                 
+}
+
+.model{
+    top:40%;
+    background-color: #fff;
+    width: 500px;
+    margin-left: auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+
+}

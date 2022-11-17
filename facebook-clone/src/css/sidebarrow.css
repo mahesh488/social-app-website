@@ -1,0 +1,8 @@
+.Sidebarrow{
+            display: flex;
+            align-items: center;    
+            cursor: pointer;
+            position: static;
+            top: 0;
+            
+        }
